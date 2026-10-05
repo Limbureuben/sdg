@@ -1,0 +1,6 @@
+services:
+  sdgs-interactive:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "80:80"
